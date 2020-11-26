@@ -8,12 +8,12 @@ showImgRelated(productDetail);
 showInfoDetail(productDetail);
 
 function showImgDetail(product) {
-  return (imgDetail.innerHTML += `<img src="../../assets/img/home/${product.img}">`);
+  return (imgDetail.innerHTML += `<img src="../assets/img/home/${product.img}">`);
 }
 
 function showImgRelated(product) {
   return product.imgDetail.map(function (item) {
-    return (imgRelated.innerHTML += `<img class="detail__img-involve--img1" src="../../assets/img/detail/${item}">`);
+    return (imgRelated.innerHTML += `<img class="detail__img-involve--img1" src="../assets/img/detail/${item}">`);
   });
 }
 

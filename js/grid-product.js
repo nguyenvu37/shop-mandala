@@ -11,10 +11,10 @@ xhr.send();
 
 xhr.onreadystatechange = function () {
   if (xhr.readyState == 4 && xhr.status == 200) {
+    console.log("xhr.responseText :>> ", xhr.responseText);
     dataProducts = JSON.parse(xhr.responseText);
     showProduct(dataProducts);
   }
-  // cần thêm check server lỗi hoặc server load chậm show thông tin cho người dùng tương tác
 };
 
 function showProduct(data) {
