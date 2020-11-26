@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Mandala</title>
+    <!-- Font OpenSans-->
+    <link href="https://fonts.googleapis.com/css2?family=Playball&amp;family=Roboto+Slab:wght@100;200;300;400;500;600;700&amp;family=Lobster&amp;family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Logo-->
+    <link rel="icon" href="assets/img/home/logo.png">
+    <!-- Style-->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Home Page-->
+    <header>
+      <div class="box">
+        <div class="nav">
+          <div class="nav__logo logo">
+            <div class="nav__logo--square logo-square"><a href="index.html"><img class="logo-img" src="assets/img/home/mandala.png"></a></div>
+          </div>
+          <div class="nav__menu">
+            <ul>
+              <li><a href="index.html">TRANG CHỦ<i></i></a></li>
+              <li><a href="about.html">GIỚI THIỆU<i></i></a></li>
+              <li class="dropdown"><a href="grid.html">SẢN PHẨM<i class="fas fa-chevron-down"></i>
+                  <div class="arrow-up"></div>
+                  <div class="dropdown-list">
+                    <div class="dropdown-list__item"><a class="list-name" href="list.html">DƯỠNG DA</a>
+                      <ul>
+                        <li class="list-item"><a href="detail.html">Áo khoác</a></li>
+                        <li class="list-item"><a href="detail.html">Bộ áo liền quần</a></li>
+                        <li class="list-item"><a href="detail.html">Dresses</a></li>
+                        <li class="list-item"><a href="detail.html">Quần/váy</a></li>
+                        <li class="list-item"><a href="detail.html">Quần short</a></li>
+                        <li class="list-item"><a href="detail.html">Quần jean</a></li>
+                        <li class="list-item"><a href="detail.html">Đồ đan</a></li>
+                        <li class="list-item"><a href="detail.html">Áo nỉ</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown-list__item"><a class="list-name" href="list.html">NƯỚC HOA</a>
+                      <ul>
+                        <li class="list-item"><a href="detail.html">Áo cánh/Áo sơ mi</a></li>
+                        <li class="list-item"><a href="detail.html">Túi xách &amp; Balo</a></li>
+                        <li class="list-item"><a href="detail.html">Khăn quàng cổ và Foulards</a></li>
+                        <li class="list-item"><a href="detail.html">Dệt kim Hats &amp; Gloves</a></li>
+                        <li class="list-item"><a href="detail.html">Vớ và Socks</a></li>
+                        <li class="list-item"><a href="detail.html">Jewerly</a></li>
+                        <li class="list-item"><a href="detail.html">Bị bảo vệ</a></li>
+                        <li class="list-item"><a href="detail.html">Giày</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown-list__item"><a class="list-name" href="list.html">TRANG SỨC</a>
+                      <ul>
+                        <li class="list-item"><a href="detail.html">Áo cánh/Áo sơ mi</a></li>
+                        <li class="list-item"><a href="detail.html">Túi xách &amp; Balo</a></li>
+                        <li class="list-item"><a href="detail.html">Khăn quàng cổ và Foulards</a></li>
+                        <li class="list-item"><a href="detail.html">Dệt kim Hats &amp; Gloves</a></li>
+                        <li class="list-item"><a href="detail.html">Vớ và Socks</a></li>
+                        <li class="list-item"><a href="detail.html">Jewerly</a></li>
+                        <li class="list-item"><a href="detail.html">Bị bảo vệ</a></li>
+                        <li class="list-item"><a href="detail.html">Giày</a></li>
+                      </ul>
+                    </div>
+                  </div></a></li>
+              <li><a href="blog.html">TIN TỨC<i></i></a></li>
+              <li><a href="#">BẢN ĐỒ<i></i></a></li>
+              <li><a href="contact.html">LIÊN HỆ<i></i></a></li>
+            </ul>
+          </div>
+          <div class="nav__cart"><a href="cart.html">
+              <div class="cart"><i class="fas fa-shopping-cart"></i>
+                <div class="number-cart"><span></span></div>
+              </div></a><a href="#"><i class="fas fa-search search"></i></a>
+            <div class="nav__cart__bar">
+              <input class="nav__cart__bar--checkbox" type="checkbox" id="menu-toggle">
+              <label for="menu-toggle"><i class="fas fa-bars bar"></i></label>
+              <div class="nav__cart__bar__menu">
+                <div class="bar-logo logo">
+                  <div class="bar-logo--square logo-square"><a href="index.html"><img class="logo-img" src="assets/img/home/mandala.png"></a></div>
+                </div>
+                <div class="bar-menu">
+                  <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">GIỚI THIỆU</a></li>
+                    <li class="dropdown"><a href="grid.html">SẢN PHẨM
+                        <div class="dropdown-list">
+                          <div class="dropdown-list__item"><a class="list-name" href="list.html">DƯỠNG DA</a>
+                            <ul>
+                              <li class="list-item"><a href="detail.html">Áo khoác</a></li>
+                              <li class="list-item"><a href="detail.html">Bộ áo liền quần</a></li>
+                              <li class="list-item"><a href="detail.html">Dresses</a></li>
+                              <li class="list-item"><a href="detail.html">Quần/váy</a></li>
+                              <li class="list-item"><a href="detail.html">Quần short</a></li>
+                              <li class="list-item"><a href="detail.html">Quần jean</a></li>
+                              <li class="list-item"><a href="detail.html">Đồ đan</a></li>
+                              <li class="list-item"><a href="detail.html">Áo nỉ</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown-list__item"><a class="list-name" href="list.html">NƯỚC HOA</a>
+                            <ul>
+                              <li class="list-item"><a href="detail.html">Áo cánh/Áo sơ mi</a></li>
+                              <li class="list-item"><a href="detail.html">Túi xách &amp; Balo</a></li>
+                              <li class="list-item"><a href="detail.html">Khăn quàng cổ và Foulards</a></li>
+                              <li class="list-item"><a href="detail.html">Dệt kim Hats &amp; Gloves</a></li>
+                              <li class="list-item"><a href="detail.html">Vớ và Socks</a></li>
+                              <li class="list-item"><a href="detail.html">Jewerly</a></li>
+                              <li class="list-item"><a href="detail.html">Bị bảo vệ</a></li>
+                              <li class="list-item"><a href="detail.html">Giày</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown-list__item"><a class="list-name" href="list.html">TRANG SỨC</a>
+                            <ul>
+                              <li class="list-item"><a href="detail.html">Áo cánh/Áo sơ mi</a></li>
+                              <li class="list-item"><a href="detail.html">Túi xách &amp; Balo</a></li>
+                              <li class="list-item"><a href="detail.html">Khăn quàng cổ và Foulards</a></li>
+                              <li class="list-item"><a href="detail.html">Dệt kim Hats &amp; Gloves</a></li>
+                              <li class="list-item"><a href="detail.html">Vớ và Socks</a></li>
+                              <li class="list-item"><a href="detail.html">Jewerly</a></li>
+                              <li class="list-item"><a href="detail.html">Bị bảo vệ</a></li>
+                              <li class="list-item"><a href="detail.html">Giày</a></li>
+                            </ul>
+                          </div>
+                        </div></a></li>
+                    <li><a href="blog.html">TIN TỨC</a></li>
+                    <li><a href="#">BẢN ĐỒ</a></li>
+                    <li><a href="contact.html">LIÊN HỆ</a></li>
+                  </ul>
+                </div>
+                <div class="bar-cart"><a href="cart.html">
+                    <div class="cart"><i class="fas fa-shopping-cart"></i>
+                      <div class="number-cart"> <span></span></div>
+                    </div></a><a href="#"><i class="fas fa-search search"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Background image-->
+      <div class="background">
+        <div class="background__img">
+          <div class="box">
+            <div class="background__img__content">
+              <h2 class="background__img__content--green">GreenVera</h2>
+              <p class="background__img__content--brown">  Sản phẩm tinh dầu dưỡng da mới nhất của Mandala</p><span class="background__img__content--green price">Giá chỉ 750.000<small>đ</small></span><br>
+              <div class="background__img__content__btn">
+                <input type="checkbox" id="newsletter-toggle">
+                <label for="newsletter-toggle">mua hàng</label>
+                <div class="background__img__content__btn__overlay">
+                  <div class="newsletter">
+                    <div class="newsletter__content">
+                      <div class="newsletter__content__icon">
+                        <label for="newsletter-toggle"><img src="./assets/img/home/closepopup.png"></label>
+                      </div>
+                      <h3>gửi email</h3>
+                      <p>Hãy gửi email của bạn liên hệ với chúng tôi để được tư vấn tốt hơn</p>
+                      <p>Sự hài lòng của bạn là thành công của chúng tôi</p>
+                      <input type="text" placeholder="Email của bạn..."><a href="#">gửi email    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Policy-->
+      <section>
+        <div class="box">
+          <div class="policy">
+                <div class="policy__transport"><img src="assets/img/home/plane.png">
+                  <p>Miễn phí vận chuyển</p>
+                </div>
+                <div class="policy__gift"><img src="assets/img/home/gift.png">
+                  <p>Nhận ngay quà tặng trí giá 350.000đ</p>
+                </div>
+                <div class="policy__discount"><img src="assets/img/home/star.png">
+                  <p>Giảm 30% cho đơn hàng trên 5.000.000đ</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Goods of Mandala-->
+      <section>
+        <div class="box">
+          <div class="goods">
+            <div class="goods__shower-gel">
+              <div class="goods__shower-gel__img"><img class="img-goods" src="assets/img/home/img8.jpg"></div>
+              <div class="goods__shower-gel__content content">
+                <div class="goods__shower-gel__content--bg"></div>
+                <div class="goods__shower-gel__content--arrow-left arrow-left"></div>
+                <div class="goods__shower-gel__content__title title-right">
+                  <p>sữa tắm</p><img src="assets/img/home/2.png">
+                </div>
+              </div>
+            </div>
+            <div class="goods__perfume">
+              <div class="goods__perfume__content content">
+                <div class="goods__perfume__content--bg"></div>
+                <div class="goods__perfume__content--arrow-right arrow-right"></div>
+                <div class="goods__perfume__content__title title-left">
+                  <p>nước hoa</p><img src="assets/img/home/1.png">
+                </div>
+              </div>
+              <div class="goods__perfume__img"><img class="img-goods" src="assets/img/home/img14.jpg">
+                <div class="goods__perfume__img__content">
+                  <p>từ 1/6 - 5/6/2015</p><span class="price">-40<small>%</small></span><br><a class="buy" href="grid.html">mua hàng</a>
+                </div>
+              </div>
+            </div>
+            <div class="goods__corinne">
+              <div class="goods__corinne__content content">
+                <div class="goods__corinne__content__overlay">
+                  <div class="goods__corinne__content__overlay__img"><img src="assets/img/home/play.png"></div>
+                </div>
+                <p>corinne 2015</p>
+              </div>
+            </div>
+            <div class="goods__compo">
+              <div class="goods__compo__content content"><img src="assets/img/home/img10.jpg">
+                <div class="goods__compo__content__title">
+                  <p>compo tắm trắng</p><span>Tại Nhà</span>
+                </div>
+              </div>
+            </div>
+            <div class="goods__jewelry">
+              <div class="goods__jewelry__content content">
+                <div class="goods__jewelry__content--bg"></div>
+                <div class="goods__jewelry__content--arrow-right arrow-right"></div>
+                <div class="goods__jewelry__content__title title-left">
+                  <p>trang sức</p><img src="assets/img/home/1.png">
+                </div>
+              </div>
+              <div class="goods__jewelry__img"><img class="img-goods" src="assets/img/home/img9.jpg"></div>
+            </div>
+            <div class="goods__daisy">
+              <div class="goods__daisy__img"><img class="img-goods" src="assets/img/home/img11.jpg"></div>
+              <div class="goods__daisy__content content">
+                <div class="goods__daisy__content--bg"></div>
+                <div class="goods__daisy__content--arrow-left arrow-left"></div><img src="assets/img/home/daisy.png">
+                <div class="goods__daisy__content__title">
+                  <p>Quyến ru hon</p><span>cùng
+                    <big>DAISY</big></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials-->
+      <div class="testimonial">
+        <div class="box">
+          <div class="testimonial__bg">
+            <div class="testimonial__bg__content">
+              <figure>
+                    <div class="testimonial__bg__content__img">
+                      <div class="testimonial__bg__content__img__item"><img src="assets/img/home/img1.jpg"><span>TUTILE<br><i>Giám đốc phát triển sản phẩm</i></span></div>
+                      <div class="testimonial__bg__content__img__text">
+                        <p>"Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo ra sức hút kỳ lạ với những ai cầm trên tay sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto"</p><span>TUTILE  <i>_Giám đốc phát triển sản phẩm</i></span>
+                      </div>
+                    </div>
+                    <div class="testimonial__bg__content__img">
+                      <div class="testimonial__bg__content__img__item"><img src="assets/img/home/img2.jpg"><span>TUTILE<br><i>Giám đốc phát triển sản phẩm</i></span></div>
+                      <div class="testimonial__bg__content__img__text">
+                        <p>"Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo ra sức hút kỳ lạ với những ai cầm trên tay sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto"</p><span>TUTILE  <i>_Giám đốc phát triển sản phẩm</i></span>
+                      </div>
+                    </div>
+                    <div class="testimonial__bg__content__img">
+                      <div class="testimonial__bg__content__img__item"><img src="assets/img/home/img1.jpg"><span>TUTILE<br><i>Giám đốc phát triển sản phẩm</i></span></div>
+                      <div class="testimonial__bg__content__img__text">
+                        <p>"Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo ra sức hút kỳ lạ với những ai cầm trên tay sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto"</p><span>TUTILE  <i>_Giám đốc phát triển sản phẩm</i></span>
+                      </div>
+                    </div>
+              </figure>
+              <div class="testimonial__bg__content__btn">
+                <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Products Slider-->
+      <div class="product">
+        <div class="box">
+          <div class="product__title">
+            <div class="product__title__name">
+              <div class="product__title__name--new">Sản phẩm mới</div>
+              <div class="product__title__name--hot">Sản phẩm bán chạy</div>
+              <div class="product__title__name--special">Sản phẩm đặc biệt</div>
+            </div>
+            <div class="product__title__underline"><img src="assets/img/home/3.png"></div>
+            <div class="product__title__menu">
+              <div class="horizontal-menu">
+                <ul>
+                  <li><a href="#">Mỹ phẩm</a></li>
+                  <li><a href="#">.</a></li>
+                  <li><a href="#">Chăm sóc da</a></li>
+                  <li><a href="#">.</a></li>
+                  <li><a href="#">Nước hoa</a></li>
+                  <li><a href="#">.</a></li>
+                  <li><a href="#">Trang sức</a></li>
+                  <li><a href="#">.</a></li>
+                  <li><a href="#">Quà tặng</a></li>
+                </ul>
+              </div>
+              <div class="vertical-menu">
+                <ul>
+                  <div class="vertical-menu-left">
+                    <li><a href="#">Mỹ phẩm</a></li>
+                    <li><a href="#">Chăm sóc da</a></li>
+                    <li><a href="#">Dành cho tóc</a></li>
+                  </div>
+                  <div class="vertical-menu-right">
+                    <li><a href="#">Nước hoa</a></li>
+                    <li><a href="#">Trang sức</a></li>
+                    <li><a href="#">Quà tặng</a></li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__items">
+          <figure>
+            <input id="r1" type="radio" name="r" checked>
+            <input id="r2" type="radio" name="r">
+                <div class="product__items__detail product-detail1"><img src="assets/img/home/product1.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>TYFFANY</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail2"><img src="assets/img/home/product5.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>OHUI</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail3"><img src="assets/img/home/product4.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>HOME</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old">450.000<small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail4"><img src="assets/img/home/product6.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>DEBOMA</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail5"><img src="assets/img/home/product3.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>SARVON</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail6"><img src="assets/img/home/product2.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>TYFFANY</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail7"><img src="assets/img/home/product8.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>HOME</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old">450.000<small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__items__detail product-detail8"><img src="assets/img/home/product7.jpg">
+                  <div class="product__items__detail__content detail-content">
+                    <h4>DEBORA</h4><a href="detail.html">
+                      <p>Mỹ phẩm châu Âu</p></a><span class="price">335.000<small>đ</small></span><span class="price old disable"><small>đ</small></span>
+                  </div>
+                  <div class="product__items__detail__icon">
+                    <div class="item-buying">
+                      <button>MUA HÀNG</button><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+            <div class="product__items--arrow-right">
+              <label class="fas fa-arrow-right" for="r2"></label>
+            </div>
+            <div class="product__items--arrow-left">
+              <label class="fas fa-arrow-left" for="r1"></label>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <!-- Social-->
+      <div class="socials">
+        <div class="social">
+              <div class="item social__facebook">
+                <div class="icon social__facebook__icon"><i class="fab fa-facebook-f"></i></div>
+                <p>FACEBOOK</p>
+                <div class="bar"></div>
+              </div>
+              <div class="item social__twitter">
+                <div class="icon social__twitter__icon"><i class="fab fa-twitter"></i></div>
+                <p>TWITTER</p>
+                <div class="bar"></div>
+              </div>
+              <div class="item social__instagram">
+                <div class="icon social__instagram__icon"><i class="fab fa-instagram"></i></div>
+                <p>INSTAGRAM</p>
+                <div class="bar"></div>
+              </div>
+              <div class="item social__google">
+                <div class="icon social__google__icon"><i class="fab fa-google-plus-g"></i></div>
+                <p>GOOGLE+</p>
+                <div class="bar"></div>
+              </div>
+              <div class="item social__pinterest">
+                <div class="icon social__pinterest__icon"><i class="fab fa-pinterest"></i></div>
+                <p>PINTEREST</p>
+                <div class="bar"></div>
+              </div>
+              <div class="item social__linkedin">
+                <div class="icon social__linkedin__icon"><i class="fab fa-linkedin-in"></i></div>
+                <p>LINKEDIN</p>
+                <div class="bar disable"></div>
+              </div>
+        </div>
+      </div>
+      <!-- About & Blog & Contact-->
+      <div class="info">
+        <div class="info__about">
+          <h4>VỀ CHÚNG TÔI</h4><img class="img-about" src="assets/img/home/3.png">
+          <div class="info__about__content">
+            <div class="info__about__content__logo logo">
+              <div class="info__about__content__logo__square logo-square"><img class="logo-img" src="assets/img/home/mandala.png"></div>
+            </div>
+            <h5>GIỚI THIỆU CHUNG VỀ MỸ PHẨM HANDMADE MANDALA</h5>
+            <p>Hi, chào các nàng...sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tính xô nhau đi tắm Free để giải nhiệt.Hi, chào các nàng...sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tính xô nhau đi tắm Free để giải nhiệt.sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tính xô nhau đi tắm Free để giải nhiệt.</p>
+            <div class="info__about__content__btn"><a href="#">Xem thêm</a></div>
+          </div>
+        </div>
+        <div class="info__blog">
+          <h4>BLOG</h4><img src="assets/img/home/3.png">
+          <div class="info__blog__content">
+            <div class="info__blog__content__img"><img src="assets/img/home/img12.jpg"></div><a href="blog-detail.html">
+              <h5>REVIEW SON KEM BOURJOIR VELVET</h5></a>
+            <p>Hi, chào các nàng...sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tính xô nhau đi tắm Free để giải nhiệt.</p><span>Bởi NamTran (27/05/2015)</span>
+            <div class="info__blog__content__btn"><a href="#">Đọc thêm<i class="fas fa-angle-right"></i></a><a href="#">23 Bình Luận</a></div>
+          </div>
+        </div>
+        <div class="info__contact">
+          <div class="info__contact__email">
+            <h4>GỬI EMAIL CHO CHÚNG TÔI</h4><img src="assets/img/home/3.png">
+            <input type="text" placeholder="Email của bạn">
+            <p>Gửi email để nhận những ưu đãi mới nhất</p>
+            <button type="button">Gửi</button>
+          </div>
+          <div class="info__contact__content">
+            <h4>TAG SẢN PHẨM</h4><img src="assets/img/home/3.png">
+            <div class="info__contact__content__btn">
+              <button type="button">Đồng hồ</button>
+              <button type="button">Túi</button>
+              <button type="button">Phụ kiện</button>
+              <button type="button">Đồng hồ</button>
+              <button type="button">Túi</button>
+              <button type="button">Giày</button>
+              <button type="button">Sandal</button>
+              <button type="button">Áo sơ mi</button>
+              <button type="button">Nước hoa</button>
+              <button type="button">Giày</button>
+              <button type="button">Sandal</button>
+              <button type="button">Trẻ em</button>
+              <button type="button">Thời trang nữ</button>
+              <button type="button">Trẻ em</button>
+              <button type="button">Thời trang nữ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="box">
+        <div class="footer__content">
+          <div class="footer__content__contact">
+            <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+            <div class="footer__content__contact__add"><i class="fas fa-map-marker-alt"></i>
+              <p>Tầng 4,Tòa nhà Hanoi Group số 442 Đội Cấn, P. Cống Vị, Q. Ba Đình, Hà Nội</p>
+            </div>
+            <div class="footer__content__contact__phone">
+              <div class="footer__content__contact__phone__item1"><i class="fas fa-phone-alt"></i>
+                <p>(04) 6674 2332 - </p>
+              </div>
+              <div class="footer__content__contact__phone__item2"><img src="assets/img/home/fax.png">
+                <p>(04) 3786 8904</p>
+              </div>
+            </div>
+            <div class="footer__content__contact__mail">
+              <div class="footer__content__contact__mail__item1"><i class="fas fa-phone-alt"></i>
+                <p>(08) 6680 9686</p>
+              </div>
+              <div class="footer__content__contact__mail__item2"><i class="fas fa-envelope"></i>
+                <p class="email">Support@bizweb.vn</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer__content__shipping">
+            <h3>CHUYỂN HÀNG</h3>
+            <ul>
+              <li> <a href="#">mua sắm trực tuyến</a></li>
+              <li> <a href="#">Đến từ chúng tôi gửi đến</a></li>
+              <li> <a href="#">Chính sách vận chuyển</a></li>
+              <li> <a href="#">vận chuyển thông tin</a></li>
+            </ul>
+          </div>
+          <div class="footer__content__support">
+            <h3>HỖ TRỢ</h3>
+            <ul>
+              <li> <a href="#">Câu chuyện của chúng ta</a></li>
+              <li> <a href="#">Thanh toán an toàn</a></li>
+              <li> <a href="#">Tùy chọn Vận chuyển</a></li>
+              <li> <a href="#">Chính sách vận chuyển</a></li>
+            </ul>
+          </div>
+          <div class="footer__content__info">
+            <h3>THÔNG TIN</h3>
+            <ul>
+              <li><a href="#">về Chúng Tôi</a></li>
+              <li><a href="#">Điều khoản &amp; điều kiện</a></li>
+              <li><a href="#">Chính sách riêng tư</a></li>
+              <li><a href="#">Đơn đặt hàng và Returns</a></li>
+            </ul>
+          </div>
+          <div class="footer__content__acc">
+            <h3>MY ACCOUNT</h3>
+            <ul>
+              <li><a href="#">Xem Giỏ hàng</a></li>
+              <li><a href="#">Sản phẩm yêu thích</a></li>
+              <li><a href="#">Kiểm tra</a></li>
+              <li><a href="#">Theo giỏi đặt hàng của tôi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__border">               </div>
+      <div class="box">
+        <div class="footer__copyright">
+          <p>  &copy; Copyright 2008-2014 DKT Technology JSC</p><img src="assets/img/home/payment.png">
+        </div>
+      </div>
+    </footer>
+    <!-- Detail-->
+    <!-- Grid-->
+    <!-- List Page-->
+    <!-- Shopping Cart-->
+    <!-- Account-->
+    <!-- Register Page-->
+    <!-- Login Page-->
+    <!-- About us-->
+    <!-- Contact us-->
+    <!-- Blog Page-->
+    <!-- Blog Detail-->
+    <!-- Not Found Page-->
+    <!-- Customers Information-->
+    <!-- Payment Page-->
+    <!-- Script-->
+    <script src="js/all.js" type="module"></script>
+  </body>
+</html>
